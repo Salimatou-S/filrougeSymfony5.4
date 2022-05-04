@@ -111,6 +111,35 @@ li > a {
   height: 640px;
 }
 
+.col-lg-4 img {
+  width: 300px;
+  height: 400px;
+}
+
+.col-lg-4 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  translate: 0.6 ease;
+}
+
+.titre {
+  height: 50px;
+  margin-top: 80px;
+}
+
+.titre h1 {
+  font-size: 2rem;
+  color: black;
+}
+
+.trait {
+  height: 2px;
+  background-color: black;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
 .text {
   border: 1px solid;
   font-size: 1.3rem;
